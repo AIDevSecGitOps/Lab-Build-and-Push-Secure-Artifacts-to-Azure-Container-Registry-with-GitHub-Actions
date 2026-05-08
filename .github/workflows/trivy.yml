@@ -1,6 +1,6 @@
 name: trivy
 
-  on:
+on:
     push:
       branches: [ "main" ] # Helps prevent vulnerable code from landing on default branch
     pull_request:
